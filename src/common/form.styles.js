@@ -73,5 +73,4 @@ export const ScFormLink = styled.a`
   color: #444;
   display: block;
   margin-top: 12px;
-  font-size: 12px;
 `

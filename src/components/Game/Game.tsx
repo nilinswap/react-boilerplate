@@ -1,4 +1,4 @@
-import React from "react"
+import * as React from "react"
 import { ScParent } from "./Game.styles"
 import { GameProps } from "./Game.types"
 

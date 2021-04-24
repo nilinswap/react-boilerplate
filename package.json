@@ -11,6 +11,7 @@
     "create-component": "node ./util/create-component"
   },
   "devDependencies": {
+    "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.19",
     "@types/node": "^12.7.4",
     "@types/react": "^17.0.0",

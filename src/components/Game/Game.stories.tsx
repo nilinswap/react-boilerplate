@@ -5,6 +5,5 @@ export default {
     title: "Game"
 };
 
-export const WithBar = () => <Game foo="bar" />;
+export const WithBar = () => <Game  />;
 
-export const WithBaz = () => <Game foo="baz" />;

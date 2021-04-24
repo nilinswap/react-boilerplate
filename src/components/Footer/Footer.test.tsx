@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import Footer from "./Footer";
+import Footer from "./footer";
 import { FooterProps } from "./Footer.types";
 
 describe("sample test suite", () => {
