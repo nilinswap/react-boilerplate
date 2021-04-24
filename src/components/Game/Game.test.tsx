@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import Cart from "./Cart";
-import { CartProps } from "./Cart.types";
+import Game from "./Game";
+import { GalleryProps } from "./Game.types";
 
 describe("sample test suite", () => {
-  let props: CartProps;
+  let props: GalleryProps;
 
   beforeEach(() => {
     props = {
@@ -13,13 +13,13 @@ describe("sample test suite", () => {
     };
   });
 
-  const renderComponent = () => render(<Cart {...props} />);
+  const renderComponent = () => render(<Game {...props} />);
 
   it("should render foo text", () => {
     props.foo = "sample text";
     const { getByTestId } = renderComponent();
 
-    const component = getByTestId("Cart");
+    const component = getByTestId("Game");
 
     expect(component).toHaveTextContent("sample text");
   });
