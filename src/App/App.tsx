@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import { useEffect, useState } from "react"
 import { ArtifactType } from "./App.types"
 import { ScFlexColumn, ScSideHolder, ScMainHolder } from "./App.styles"
-import { setCSCart, getCSCart } from "~/common/utils"
+import { getCSCart } from "~/common/utils"
 
 const idList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 function getCookieValue(name) {
