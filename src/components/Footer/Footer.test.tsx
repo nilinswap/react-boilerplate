@@ -16,7 +16,6 @@ describe("sample test suite", () => {
   const renderComponent = () => render(<Footer {...props} />);
 
   it("should render foo text", () => {
-    props.foo = "sample text";
     const { getByTestId } = renderComponent();
 
     const component = getByTestId("Footer");
