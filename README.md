@@ -1,6 +1,8 @@
 # Frontend Boilerplate
 A react boilerplate with tools used like typescript, styled components etc
 
+![Boilerplate: History's Mechanical Marvel](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftimetunnel.bigredhair.com%2Fboilerplate%2FBP-comic.jpg&f=1&nofb=1)
+
 ### setup
 
 install node (>=12) and yarn 
