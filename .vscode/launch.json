@@ -11,9 +11,6 @@
         "url": "http://localhost:1234",
         "webRoot": "${workspaceFolder}",
         "breakOnLoad": true,
-        "sourceMapPathOverrides": {
-          "../*": "${webRoot}/*"
-        }
       }
     ]
   }
