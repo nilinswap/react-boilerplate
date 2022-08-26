@@ -139,6 +139,5 @@ build/
 .idea/
 .DS_Store
 .doit.db
-.vscode
 .DS_Store
 

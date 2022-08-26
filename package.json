@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-source-maps",
+    "build": "parcel build src/index.html",
     "tcheck": "tsc src/index.tsx --jsx react",
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-component": "node ./util/create-component"
